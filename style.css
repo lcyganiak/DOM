@@ -1,0 +1,26 @@
+input[type="text"] {
+
+}
+
+.paragraf {
+
+}
+
+p[class="paragraf"] {
+
+}
+
+h1[class="paragraf"] {
+
+}
+
+.addJs {
+    color: red;
+    background-color: yellowgreen;
+    font-size: 25px;
+}
+
+#newElement {
+    display: grid;
+    grid-template-columns:  auto auto;
+}
