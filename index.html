@@ -15,9 +15,25 @@
         <p class="paragraf">Jestem paragraf 4</p>
         <h1 class="paragraf">Jestem h1 o klacie paragraf</h1>
         <span id="span1">jestem spanem z id</span>
-        <input type="text" name="" id="">
+        <input type="text" name="" id="input1" onchange="showInput(value)" class="input-text" value="" >
+        <input type="text" name="" id="input2" class="input-text">
+        <input type="text" name="" id="input3" class="input-text">
+        <input type="text" name="" id="input4">
         <input type="checkbox" name="" id="">
-        <button class="btn">Jestem sobie buttonem</button>
+        <button class="btn" onclick="wHtml()" >Jestem sobie buttonem nr 1</button>
+        <button class="btn" id="btn-1">Jestem sobie buttonem nr 2</button>
+        <button class="btn" id="btn-3">Jestem sobie buttonem nr 3</button>
+        <button class="btn" id="btn-3" onclick="getInput()">Pobieram inputy z tej strony</button>
+        <form action="post">
+            <input type="text" name="" id="">
+            <input type="text" name="" id="">
+            <input type="text" name="" id="">
+            <input type="text" name="" id="">
+
+
+            <button class="btn" id="btn-4" type="submit"> przeładuje</button>
+        </form>
+        
     </div>
     <div id="newElement">
     <p>jestem od początku w HTML</p>
@@ -27,7 +43,9 @@
         </div>
     </div>
 
+<!-- od komentuj jak chcesz sprawdzić cześć związaną z DOM.
+    <script src="dom.js"></script> -->
 
-    <script src="dom.js"></script>
+    <script src="eventy.js"></script>
 </body>
 </html>

@@ -1,5 +1,11 @@
 input[type="text"] {
-
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .paragraf {
@@ -24,3 +30,16 @@ h1[class="paragraf"] {
     display: grid;
     grid-template-columns:  auto auto;
 }
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
